@@ -1,7 +1,5 @@
-if ENV["COVERAGE"] == "true"
-  require 'simplecov'
+require 'simplecov'
 
-  SimpleCov.command_name "regular features"
-end
+SimpleCov.command_name "regular features"
 
 require_relative 'env'
